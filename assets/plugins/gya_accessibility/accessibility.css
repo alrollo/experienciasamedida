@@ -1,0 +1,185 @@
+/*region ACCESSIBILITY */
+#gya_accesibilityContainer { position: fixed; top: 50%; background: #333; display: flex; flex-direction: column; flex-wrap: nowrap; z-index: 9999}
+#gya_accesibilityContainer a { padding: 10px; color: #efefef; display: block;}
+#gya_accesibilityContainer a[data-toggle="true"] { background: #efefef; color: #333; }
+/*region ACCESSIBILITY */
+
+
+body.gya-accessibility-highcontrast .placebo {
+    line-height: normal
+}
+
+body.gya-accessibility-highcontrast * {
+    -webkit-box-shadow: none!important;
+    box-shadow: none!important
+}
+
+body.gya-accessibility-highcontrast a,body.gya-accessibility-highcontrast abbr,body.gya-accessibility-highcontrast acronym,body.gya-accessibility-highcontrast address,body.gya-accessibility-highcontrast article,body.gya-accessibility-highcontrast aside,body.gya-accessibility-highcontrast b,body.gya-accessibility-highcontrast basefont,body.gya-accessibility-highcontrast bdi,body.gya-accessibility-highcontrast big,body.gya-accessibility-highcontrast blink,body.gya-accessibility-highcontrast blockquote,body.gya-accessibility-highcontrast body,body.gya-accessibility-highcontrast button,body.gya-accessibility-highcontrast canvas,body.gya-accessibility-highcontrast caption,body.gya-accessibility-highcontrast center,body.gya-accessibility-highcontrast cite,body.gya-accessibility-highcontrast code,body.gya-accessibility-highcontrast col,body.gya-accessibility-highcontrast colgroup,body.gya-accessibility-highcontrast command,body.gya-accessibility-highcontrast dd,body.gya-accessibility-highcontrast del,body.gya-accessibility-highcontrast details,body.gya-accessibility-highcontrast dfn,body.gya-accessibility-highcontrast dir,body.gya-accessibility-highcontrast div,body.gya-accessibility-highcontrast dl,body.gya-accessibility-highcontrast dt,body.gya-accessibility-highcontrast em,body.gya-accessibility-highcontrast embed,body.gya-accessibility-highcontrast fieldset,body.gya-accessibility-highcontrast figcaption,body.gya-accessibility-highcontrast figure,body.gya-accessibility-highcontrast font,body.gya-accessibility-highcontrast footer,body.gya-accessibility-highcontrast form,body.gya-accessibility-highcontrast h1,body.gya-accessibility-highcontrast h1 a,body.gya-accessibility-highcontrast h1 a b,body.gya-accessibility-highcontrast h1 abbr,body.gya-accessibility-highcontrast h1 b,body.gya-accessibility-highcontrast h1 center,body.gya-accessibility-highcontrast h1 em,body.gya-accessibility-highcontrast h1 i,body.gya-accessibility-highcontrast h1 span,body.gya-accessibility-highcontrast h1 strong,body.gya-accessibility-highcontrast h2,body.gya-accessibility-highcontrast h2 a,body.gya-accessibility-highcontrast h2 a b,body.gya-accessibility-highcontrast h2 abbr,body.gya-accessibility-highcontrast h2 b,body.gya-accessibility-highcontrast h2 center,body.gya-accessibility-highcontrast h2 em,body.gya-accessibility-highcontrast h2 i,body.gya-accessibility-highcontrast h2 span,body.gya-accessibility-highcontrast h2 strong,body.gya-accessibility-highcontrast h3,body.gya-accessibility-highcontrast h3 a,body.gya-accessibility-highcontrast h3 a b,body.gya-accessibility-highcontrast h3 abbr,body.gya-accessibility-highcontrast h3 b,body.gya-accessibility-highcontrast h3 center,body.gya-accessibility-highcontrast h3 em,body.gya-accessibility-highcontrast h3 i,body.gya-accessibility-highcontrast h3 span,body.gya-accessibility-highcontrast h3 strong,body.gya-accessibility-highcontrast h4,body.gya-accessibility-highcontrast h4 a,body.gya-accessibility-highcontrast h4 a b,body.gya-accessibility-highcontrast h4 abbr,body.gya-accessibility-highcontrast h4 b,body.gya-accessibility-highcontrast h4 center,body.gya-accessibility-highcontrast h4 em,body.gya-accessibility-highcontrast h4 i,body.gya-accessibility-highcontrast h4 span,body.gya-accessibility-highcontrast h4 strong,body.gya-accessibility-highcontrast h5,body.gya-accessibility-highcontrast h5 a,body.gya-accessibility-highcontrast h5 a b,body.gya-accessibility-highcontrast h5 abbr,body.gya-accessibility-highcontrast h5 b,body.gya-accessibility-highcontrast h5 center,body.gya-accessibility-highcontrast h5 em,body.gya-accessibility-highcontrast h5 i,body.gya-accessibility-highcontrast h5 span,body.gya-accessibility-highcontrast h5 strong,body.gya-accessibility-highcontrast h6,body.gya-accessibility-highcontrast h6 a,body.gya-accessibility-highcontrast h6 a b,body.gya-accessibility-highcontrast h6 abbr,body.gya-accessibility-highcontrast h6 b,body.gya-accessibility-highcontrast h6 center,body.gya-accessibility-highcontrast h6 em,body.gya-accessibility-highcontrast h6 i,body.gya-accessibility-highcontrast h6 span,body.gya-accessibility-highcontrast h6 strong,body.gya-accessibility-highcontrast header,body.gya-accessibility-highcontrast hgroup,body.gya-accessibility-highcontrast html,body.gya-accessibility-highcontrast i,body.gya-accessibility-highcontrast iframe,body.gya-accessibility-highcontrast img,body.gya-accessibility-highcontrast input,body.gya-accessibility-highcontrast ins,body.gya-accessibility-highcontrast kbd,body.gya-accessibility-highcontrast label,body.gya-accessibility-highcontrast legend,body.gya-accessibility-highcontrast li,body.gya-accessibility-highcontrast listing,body.gya-accessibility-highcontrast main,body.gya-accessibility-highcontrast mark,body.gya-accessibility-highcontrast marquee,body.gya-accessibility-highcontrast menu,body.gya-accessibility-highcontrast meter,body.gya-accessibility-highcontrast multicol,body.gya-accessibility-highcontrast nav,body.gya-accessibility-highcontrast nobr,body.gya-accessibility-highcontrast object,body.gya-accessibility-highcontrast ol,body.gya-accessibility-highcontrast option,body.gya-accessibility-highcontrast output,body.gya-accessibility-highcontrast p,body.gya-accessibility-highcontrast plaintext,body.gya-accessibility-highcontrast pre,body.gya-accessibility-highcontrast progress,body.gya-accessibility-highcontrast q,body.gya-accessibility-highcontrast rb,body.gya-accessibility-highcontrast rp,body.gya-accessibility-highcontrast rt,body.gya-accessibility-highcontrast ruby,body.gya-accessibility-highcontrast s,body.gya-accessibility-highcontrast samp,body.gya-accessibility-highcontrast section,body.gya-accessibility-highcontrast select,body.gya-accessibility-highcontrast small,body.gya-accessibility-highcontrast span,body.gya-accessibility-highcontrast strike,body.gya-accessibility-highcontrast strong,body.gya-accessibility-highcontrast sub,body.gya-accessibility-highcontrast summary,body.gya-accessibility-highcontrast sup,body.gya-accessibility-highcontrast svg,body.gya-accessibility-highcontrast table,body.gya-accessibility-highcontrast tbody,body.gya-accessibility-highcontrast td,body.gya-accessibility-highcontrast text,body.gya-accessibility-highcontrast textarea,body.gya-accessibility-highcontrast th,body.gya-accessibility-highcontrast thead,body.gya-accessibility-highcontrast time,body.gya-accessibility-highcontrast tr,body.gya-accessibility-highcontrast tt,body.gya-accessibility-highcontrast u,body.gya-accessibility-highcontrast ul,body.gya-accessibility-highcontrast var,body.gya-accessibility-highcontrast video,body.gya-accessibility-highcontrast xmp {
+    -moz-appearance: none!important;
+    -moz-user-select: text!important;
+    -webkit-user-select: text!important;
+    background-image: none!important;
+    text-shadow: none!important;
+    user-select: text!important
+}
+
+body.gya-accessibility-highcontrast a,body.gya-accessibility-highcontrast abbr,body.gya-accessibility-highcontrast acronym,body.gya-accessibility-highcontrast address,body.gya-accessibility-highcontrast article,body.gya-accessibility-highcontrast aside,body.gya-accessibility-highcontrast b,body.gya-accessibility-highcontrast basefont,body.gya-accessibility-highcontrast bdi,body.gya-accessibility-highcontrast big,body.gya-accessibility-highcontrast blink,body.gya-accessibility-highcontrast blockquote,body.gya-accessibility-highcontrast body,body.gya-accessibility-highcontrast canvas,body.gya-accessibility-highcontrast caption,body.gya-accessibility-highcontrast center,body.gya-accessibility-highcontrast cite,body.gya-accessibility-highcontrast code,body.gya-accessibility-highcontrast col,body.gya-accessibility-highcontrast colgroup,body.gya-accessibility-highcontrast command,body.gya-accessibility-highcontrast dd,body.gya-accessibility-highcontrast del,body.gya-accessibility-highcontrast details,body.gya-accessibility-highcontrast dfn,body.gya-accessibility-highcontrast dir,body.gya-accessibility-highcontrast div,body.gya-accessibility-highcontrast dl,body.gya-accessibility-highcontrast dt,body.gya-accessibility-highcontrast em,body.gya-accessibility-highcontrast embed,body.gya-accessibility-highcontrast fieldset,body.gya-accessibility-highcontrast figcaption,body.gya-accessibility-highcontrast figure,body.gya-accessibility-highcontrast font,body.gya-accessibility-highcontrast footer,body.gya-accessibility-highcontrast form,body.gya-accessibility-highcontrast h1,body.gya-accessibility-highcontrast h1 a,body.gya-accessibility-highcontrast h1 a b,body.gya-accessibility-highcontrast h1 abbr,body.gya-accessibility-highcontrast h1 b,body.gya-accessibility-highcontrast h1 center,body.gya-accessibility-highcontrast h1 em,body.gya-accessibility-highcontrast h1 i,body.gya-accessibility-highcontrast h1 span,body.gya-accessibility-highcontrast h1 strong,body.gya-accessibility-highcontrast h2,body.gya-accessibility-highcontrast h2 a,body.gya-accessibility-highcontrast h2 a b,body.gya-accessibility-highcontrast h2 abbr,body.gya-accessibility-highcontrast h2 b,body.gya-accessibility-highcontrast h2 center,body.gya-accessibility-highcontrast h2 em,body.gya-accessibility-highcontrast h2 i,body.gya-accessibility-highcontrast h2 span,body.gya-accessibility-highcontrast h2 strong,body.gya-accessibility-highcontrast h3,body.gya-accessibility-highcontrast h3 a,body.gya-accessibility-highcontrast h3 a b,body.gya-accessibility-highcontrast h3 abbr,body.gya-accessibility-highcontrast h3 b,body.gya-accessibility-highcontrast h3 center,body.gya-accessibility-highcontrast h3 em,body.gya-accessibility-highcontrast h3 i,body.gya-accessibility-highcontrast h3 span,body.gya-accessibility-highcontrast h3 strong,body.gya-accessibility-highcontrast h4,body.gya-accessibility-highcontrast h4 a,body.gya-accessibility-highcontrast h4 a b,body.gya-accessibility-highcontrast h4 abbr,body.gya-accessibility-highcontrast h4 b,body.gya-accessibility-highcontrast h4 center,body.gya-accessibility-highcontrast h4 em,body.gya-accessibility-highcontrast h4 i,body.gya-accessibility-highcontrast h4 span,body.gya-accessibility-highcontrast h4 strong,body.gya-accessibility-highcontrast h5,body.gya-accessibility-highcontrast h5 a,body.gya-accessibility-highcontrast h5 a b,body.gya-accessibility-highcontrast h5 abbr,body.gya-accessibility-highcontrast h5 b,body.gya-accessibility-highcontrast h5 center,body.gya-accessibility-highcontrast h5 em,body.gya-accessibility-highcontrast h5 i,body.gya-accessibility-highcontrast h5 span,body.gya-accessibility-highcontrast h5 strong,body.gya-accessibility-highcontrast h6,body.gya-accessibility-highcontrast h6 a,body.gya-accessibility-highcontrast h6 a b,body.gya-accessibility-highcontrast h6 abbr,body.gya-accessibility-highcontrast h6 b,body.gya-accessibility-highcontrast h6 center,body.gya-accessibility-highcontrast h6 em,body.gya-accessibility-highcontrast h6 i,body.gya-accessibility-highcontrast h6 span,body.gya-accessibility-highcontrast h6 strong,body.gya-accessibility-highcontrast header,body.gya-accessibility-highcontrast hgroup,body.gya-accessibility-highcontrast html,body.gya-accessibility-highcontrast i,body.gya-accessibility-highcontrast iframe,body.gya-accessibility-highcontrast input,body.gya-accessibility-highcontrast ins,body.gya-accessibility-highcontrast kbd,body.gya-accessibility-highcontrast label,body.gya-accessibility-highcontrast legend,body.gya-accessibility-highcontrast li,body.gya-accessibility-highcontrast listing,body.gya-accessibility-highcontrast main,body.gya-accessibility-highcontrast mark,body.gya-accessibility-highcontrast marquee,body.gya-accessibility-highcontrast menu,body.gya-accessibility-highcontrast meter,body.gya-accessibility-highcontrast multicol,body.gya-accessibility-highcontrast nav:not(#pojo-a11y-toolbar),body.gya-accessibility-highcontrast nobr,body.gya-accessibility-highcontrast object,body.gya-accessibility-highcontrast ol,body.gya-accessibility-highcontrast option,body.gya-accessibility-highcontrast output,body.gya-accessibility-highcontrast p,body.gya-accessibility-highcontrast plaintext,body.gya-accessibility-highcontrast pre,body.gya-accessibility-highcontrast progress,body.gya-accessibility-highcontrast q,body.gya-accessibility-highcontrast rb,body.gya-accessibility-highcontrast rp,body.gya-accessibility-highcontrast rt,body.gya-accessibility-highcontrast ruby,body.gya-accessibility-highcontrast s,body.gya-accessibility-highcontrast samp,body.gya-accessibility-highcontrast section,body.gya-accessibility-highcontrast small,body.gya-accessibility-highcontrast span,body.gya-accessibility-highcontrast strike,body.gya-accessibility-highcontrast strong,body.gya-accessibility-highcontrast sub,body.gya-accessibility-highcontrast summary,body.gya-accessibility-highcontrast sup,body.gya-accessibility-highcontrast svg,body.gya-accessibility-highcontrast table,body.gya-accessibility-highcontrast tbody,body.gya-accessibility-highcontrast td,body.gya-accessibility-highcontrast text,body.gya-accessibility-highcontrast textarea,body.gya-accessibility-highcontrast th,body.gya-accessibility-highcontrast thead,body.gya-accessibility-highcontrast time,body.gya-accessibility-highcontrast tr,body.gya-accessibility-highcontrast tt,body.gya-accessibility-highcontrast u,body.gya-accessibility-highcontrast ul,body.gya-accessibility-highcontrast var,body.gya-accessibility-highcontrast video,body.gya-accessibility-highcontrast xmp {
+    background: black!important;
+    background-color: black!important
+}
+
+body.gya-accessibility-highcontrast a,body.gya-accessibility-highcontrast article,body.gya-accessibility-highcontrast aside,body.gya-accessibility-highcontrast basefont,body.gya-accessibility-highcontrast bdi,body.gya-accessibility-highcontrast big,body.gya-accessibility-highcontrast blink,body.gya-accessibility-highcontrast blockquote,body.gya-accessibility-highcontrast body,body.gya-accessibility-highcontrast button,body.gya-accessibility-highcontrast canvas,body.gya-accessibility-highcontrast caption,body.gya-accessibility-highcontrast center,body.gya-accessibility-highcontrast code,body.gya-accessibility-highcontrast col,body.gya-accessibility-highcontrast colgroup,body.gya-accessibility-highcontrast command,body.gya-accessibility-highcontrast dd,body.gya-accessibility-highcontrast del,body.gya-accessibility-highcontrast details,body.gya-accessibility-highcontrast dir,body.gya-accessibility-highcontrast div,body.gya-accessibility-highcontrast dl,body.gya-accessibility-highcontrast dt,body.gya-accessibility-highcontrast embed,body.gya-accessibility-highcontrast fieldset,body.gya-accessibility-highcontrast figcaption,body.gya-accessibility-highcontrast figure,body.gya-accessibility-highcontrast font,body.gya-accessibility-highcontrast footer,body.gya-accessibility-highcontrast form,body.gya-accessibility-highcontrast header,body.gya-accessibility-highcontrast hgroup,body.gya-accessibility-highcontrast html,body.gya-accessibility-highcontrast iframe,body.gya-accessibility-highcontrast img,body.gya-accessibility-highcontrast input,body.gya-accessibility-highcontrast ins,body.gya-accessibility-highcontrast kbd,body.gya-accessibility-highcontrast label,body.gya-accessibility-highcontrast legend,body.gya-accessibility-highcontrast li,body.gya-accessibility-highcontrast listing,body.gya-accessibility-highcontrast main,body.gya-accessibility-highcontrast mark,body.gya-accessibility-highcontrast marquee,body.gya-accessibility-highcontrast menu,body.gya-accessibility-highcontrast meter,body.gya-accessibility-highcontrast multicol,body.gya-accessibility-highcontrast nav,body.gya-accessibility-highcontrast nobr,body.gya-accessibility-highcontrast object,body.gya-accessibility-highcontrast ol,body.gya-accessibility-highcontrast option,body.gya-accessibility-highcontrast output,body.gya-accessibility-highcontrast p,body.gya-accessibility-highcontrast plaintext,body.gya-accessibility-highcontrast pre,body.gya-accessibility-highcontrast progress,body.gya-accessibility-highcontrast q,body.gya-accessibility-highcontrast rb,body.gya-accessibility-highcontrast rp,body.gya-accessibility-highcontrast rt,body.gya-accessibility-highcontrast ruby,body.gya-accessibility-highcontrast s,body.gya-accessibility-highcontrast samp,body.gya-accessibility-highcontrast section,body.gya-accessibility-highcontrast select,body.gya-accessibility-highcontrast small,body.gya-accessibility-highcontrast span,body.gya-accessibility-highcontrast strike,body.gya-accessibility-highcontrast sub,body.gya-accessibility-highcontrast summary,body.gya-accessibility-highcontrast sup,body.gya-accessibility-highcontrast svg,body.gya-accessibility-highcontrast table,body.gya-accessibility-highcontrast tbody,body.gya-accessibility-highcontrast td,body.gya-accessibility-highcontrast text,body.gya-accessibility-highcontrast textarea,body.gya-accessibility-highcontrast th,body.gya-accessibility-highcontrast thead,body.gya-accessibility-highcontrast time,body.gya-accessibility-highcontrast tr,body.gya-accessibility-highcontrast tt,body.gya-accessibility-highcontrast ul,body.gya-accessibility-highcontrast var,body.gya-accessibility-highcontrast video,body.gya-accessibility-highcontrast xmp {
+    color: white!important
+}
+
+body.gya-accessibility-highcontrast abbr,body.gya-accessibility-highcontrast acronym,body.gya-accessibility-highcontrast b,body.gya-accessibility-highcontrast b span,body.gya-accessibility-highcontrast h1 b,body.gya-accessibility-highcontrast h1 strong,body.gya-accessibility-highcontrast h2 b,body.gya-accessibility-highcontrast h2 strong,body.gya-accessibility-highcontrast h3 b,body.gya-accessibility-highcontrast h3 strong,body.gya-accessibility-highcontrast h4 b,body.gya-accessibility-highcontrast h4 strong,body.gya-accessibility-highcontrast h5 b,body.gya-accessibility-highcontrast h5 strong,body.gya-accessibility-highcontrast h6 b,body.gya-accessibility-highcontrast h6 strong,body.gya-accessibility-highcontrast strong,body.gya-accessibility-highcontrast strong span {
+    color: yellow!important
+}
+
+body.gya-accessibility-highcontrast address,body.gya-accessibility-highcontrast address span,body.gya-accessibility-highcontrast cite,body.gya-accessibility-highcontrast cite span,body.gya-accessibility-highcontrast dfn,body.gya-accessibility-highcontrast dfn span,body.gya-accessibility-highcontrast em,body.gya-accessibility-highcontrast em span,body.gya-accessibility-highcontrast h1 em,body.gya-accessibility-highcontrast h1 i,body.gya-accessibility-highcontrast h2 em,body.gya-accessibility-highcontrast h2 i,body.gya-accessibility-highcontrast h3 em,body.gya-accessibility-highcontrast h3 i,body.gya-accessibility-highcontrast h4 em,body.gya-accessibility-highcontrast h4 i,body.gya-accessibility-highcontrast h5 em,body.gya-accessibility-highcontrast h5 i,body.gya-accessibility-highcontrast h6 em,body.gya-accessibility-highcontrast h6 i,body.gya-accessibility-highcontrast i,body.gya-accessibility-highcontrast i span,body.gya-accessibility-highcontrast u,body.gya-accessibility-highcontrast u span {
+    color: #FFFF80!important
+}
+
+body.gya-accessibility-highcontrast dt {
+    border-top: thin solid grey!important
+}
+
+body.gya-accessibility-highcontrast h1,body.gya-accessibility-highcontrast h1 a,body.gya-accessibility-highcontrast h1 a b,body.gya-accessibility-highcontrast h1 abbr,body.gya-accessibility-highcontrast h1 center,body.gya-accessibility-highcontrast h1 span,body.gya-accessibility-highcontrast h2,body.gya-accessibility-highcontrast h2 a,body.gya-accessibility-highcontrast h2 a b,body.gya-accessibility-highcontrast h2 abbr,body.gya-accessibility-highcontrast h2 center,body.gya-accessibility-highcontrast h2 span,body.gya-accessibility-highcontrast h3,body.gya-accessibility-highcontrast h3 a,body.gya-accessibility-highcontrast h3 a b,body.gya-accessibility-highcontrast h3 abbr,body.gya-accessibility-highcontrast h3 center,body.gya-accessibility-highcontrast h3 span,body.gya-accessibility-highcontrast h4,body.gya-accessibility-highcontrast h4 a,body.gya-accessibility-highcontrast h4 a b,body.gya-accessibility-highcontrast h4 abbr,body.gya-accessibility-highcontrast h4 center,body.gya-accessibility-highcontrast h4 span,body.gya-accessibility-highcontrast h5,body.gya-accessibility-highcontrast h5 a,body.gya-accessibility-highcontrast h5 a b,body.gya-accessibility-highcontrast h5 abbr,body.gya-accessibility-highcontrast h5 center,body.gya-accessibility-highcontrast h5 span,body.gya-accessibility-highcontrast h6,body.gya-accessibility-highcontrast h6 a,body.gya-accessibility-highcontrast h6 a b,body.gya-accessibility-highcontrast h6 abbr,body.gya-accessibility-highcontrast h6 center,body.gya-accessibility-highcontrast h6 span {
+    color: #40C090!important
+}
+
+body.gya-accessibility-highcontrast img {
+    background: #808080!important;
+    background-color: #808080!important
+}
+
+body.gya-accessibility-highcontrast abbr,body.gya-accessibility-highcontrast acronym {
+    border-bottom: 1px dotted!important
+}
+
+body.gya-accessibility-highcontrast :focus {
+    outline: thin dotted!important
+}
+
+body.gya-accessibility-highcontrast a.button,body.gya-accessibility-highcontrast a.button abbr,body.gya-accessibility-highcontrast a.button acronym,body.gya-accessibility-highcontrast a.button b,body.gya-accessibility-highcontrast a.button basefont,body.gya-accessibility-highcontrast a.button big,body.gya-accessibility-highcontrast a.button br,body.gya-accessibility-highcontrast a.button code,body.gya-accessibility-highcontrast a.button div,body.gya-accessibility-highcontrast a.button em,body.gya-accessibility-highcontrast a.button font,body.gya-accessibility-highcontrast a.button h1,body.gya-accessibility-highcontrast a.button h2,body.gya-accessibility-highcontrast a.button h3,body.gya-accessibility-highcontrast a.button h4,body.gya-accessibility-highcontrast a.button h5,body.gya-accessibility-highcontrast a.button h6,body.gya-accessibility-highcontrast a.button i,body.gya-accessibility-highcontrast a.button kbd,body.gya-accessibility-highcontrast a.button rb,body.gya-accessibility-highcontrast a.button rp,body.gya-accessibility-highcontrast a.button rt,body.gya-accessibility-highcontrast a.button ruby,body.gya-accessibility-highcontrast a.button samp,body.gya-accessibility-highcontrast a.button small,body.gya-accessibility-highcontrast a.button span,body.gya-accessibility-highcontrast a.button strong,body.gya-accessibility-highcontrast a.button tt,body.gya-accessibility-highcontrast a.button u,body.gya-accessibility-highcontrast a.button var,body.gya-accessibility-highcontrast a:link,body.gya-accessibility-highcontrast a:link abbr,body.gya-accessibility-highcontrast a:link acronym,body.gya-accessibility-highcontrast a:link b,body.gya-accessibility-highcontrast a:link basefont,body.gya-accessibility-highcontrast a:link big,body.gya-accessibility-highcontrast a:link br,body.gya-accessibility-highcontrast a:link code,body.gya-accessibility-highcontrast a:link div,body.gya-accessibility-highcontrast a:link em,body.gya-accessibility-highcontrast a:link font,body.gya-accessibility-highcontrast a:link h1,body.gya-accessibility-highcontrast a:link h2,body.gya-accessibility-highcontrast a:link h3,body.gya-accessibility-highcontrast a:link h4,body.gya-accessibility-highcontrast a:link h5,body.gya-accessibility-highcontrast a:link h6,body.gya-accessibility-highcontrast a:link i,body.gya-accessibility-highcontrast a:link kbd,body.gya-accessibility-highcontrast a:link rb,body.gya-accessibility-highcontrast a:link rp,body.gya-accessibility-highcontrast a:link rt,body.gya-accessibility-highcontrast a:link ruby,body.gya-accessibility-highcontrast a:link samp,body.gya-accessibility-highcontrast a:link small,body.gya-accessibility-highcontrast a:link span,body.gya-accessibility-highcontrast a:link strong,body.gya-accessibility-highcontrast a:link tt,body.gya-accessibility-highcontrast a:link u,body.gya-accessibility-highcontrast a:link var,body.gya-accessibility-highcontrast div#secondaryNav div#documentNavigation ul.navigationTabs li.tabItem {
+    color: #0080FF!important
+}
+
+body.gya-accessibility-highcontrast button,body.gya-accessibility-highcontrast input,body.gya-accessibility-highcontrast textarea,body.gya-accessibility-highcontrast select,body.gya-accessibility-highcontrast table,body.gya-accessibility-highcontrast td,body.gya-accessibility-highcontrast th,body.gya-accessibility-highcontrast tr,body.gya-accessibility-highcontrast tt {
+    border: 1px solid #ffffff!important
+}
+
+body.gya-accessibility-highcontrast button {
+    background: #600040!important;
+    background-color: #600040!important
+}
+
+body.gya-accessibility-highcontrast select {
+    -webkit-appearance: listbox!important;
+    background: #600060!important;
+    background-color: #600060!important
+}
+
+body.gya-accessibility-highcontrast a:visited,body.gya-accessibility-highcontrast a:visited abbr,body.gya-accessibility-highcontrast a:visited acronym,body.gya-accessibility-highcontrast a:visited b,body.gya-accessibility-highcontrast a:visited basefont,body.gya-accessibility-highcontrast a:visited big,body.gya-accessibility-highcontrast a:visited br,body.gya-accessibility-highcontrast a:visited code,body.gya-accessibility-highcontrast a:visited div,body.gya-accessibility-highcontrast a:visited em,body.gya-accessibility-highcontrast a:visited font,body.gya-accessibility-highcontrast a:visited h1,body.gya-accessibility-highcontrast a:visited h2,body.gya-accessibility-highcontrast a:visited h3,body.gya-accessibility-highcontrast a:visited h4,body.gya-accessibility-highcontrast a:visited h5,body.gya-accessibility-highcontrast a:visited h6,body.gya-accessibility-highcontrast a:visited i,body.gya-accessibility-highcontrast a:visited kbd,body.gya-accessibility-highcontrast a:visited rb,body.gya-accessibility-highcontrast a:visited rp,body.gya-accessibility-highcontrast a:visited rt,body.gya-accessibility-highcontrast a:visited ruby,body.gya-accessibility-highcontrast a:visited samp,body.gya-accessibility-highcontrast a:visited small,body.gya-accessibility-highcontrast a:visited span,body.gya-accessibility-highcontrast a:visited strong,body.gya-accessibility-highcontrast a:visited tt,body.gya-accessibility-highcontrast a:visited u,body.gya-accessibility-highcontrast a:visited var,body.gya-accessibility-highcontrast div#secondaryNav div#documentNavigation ul.navigationTabs li.tabItem.active {
+    color: #00FFFF!important
+}
+
+body.gya-accessibility-highcontrast ::selection,body.gya-accessibility-highcontrast ::-moz-selection {
+    background: #4080c0!important;
+    background-color: #4080c0!important
+}
+
+body.gya-accessibility-highcontrast a.button:hover,body.gya-accessibility-highcontrast a.button:hover abbr,body.gya-accessibility-highcontrast a.button:hover acronym,body.gya-accessibility-highcontrast a.button:hover b,body.gya-accessibility-highcontrast a.button:hover basefont,body.gya-accessibility-highcontrast a.button:hover big,body.gya-accessibility-highcontrast a.button:hover br,body.gya-accessibility-highcontrast a.button:hover code,body.gya-accessibility-highcontrast a.button:hover div,body.gya-accessibility-highcontrast a.button:hover em,body.gya-accessibility-highcontrast a.button:hover font,body.gya-accessibility-highcontrast a.button:hover h1,body.gya-accessibility-highcontrast a.button:hover h2,body.gya-accessibility-highcontrast a.button:hover h3,body.gya-accessibility-highcontrast a.button:hover h4,body.gya-accessibility-highcontrast a.button:hover h5,body.gya-accessibility-highcontrast a.button:hover h6,body.gya-accessibility-highcontrast a.button:hover i,body.gya-accessibility-highcontrast a.button:hover kbd,body.gya-accessibility-highcontrast a.button:hover rb,body.gya-accessibility-highcontrast a.button:hover rp,body.gya-accessibility-highcontrast a.button:hover rt,body.gya-accessibility-highcontrast a.button:hover ruby,body.gya-accessibility-highcontrast a.button:hover samp,body.gya-accessibility-highcontrast a.button:hover small,body.gya-accessibility-highcontrast a.button:hover span,body.gya-accessibility-highcontrast a.button:hover strong,body.gya-accessibility-highcontrast a.button:hover tt,body.gya-accessibility-highcontrast a.button:hover u,body.gya-accessibility-highcontrast a.button:hover var,body.gya-accessibility-highcontrast a:link:hover,body.gya-accessibility-highcontrast a:link:hover abbr,body.gya-accessibility-highcontrast a:link:hover acronym,body.gya-accessibility-highcontrast a:link:hover b,body.gya-accessibility-highcontrast a:link:hover basefont,body.gya-accessibility-highcontrast a:link:hover big,body.gya-accessibility-highcontrast a:link:hover br,body.gya-accessibility-highcontrast a:link:hover code,body.gya-accessibility-highcontrast a:link:hover div,body.gya-accessibility-highcontrast a:link:hover em,body.gya-accessibility-highcontrast a:link:hover font,body.gya-accessibility-highcontrast a:link:hover h1,body.gya-accessibility-highcontrast a:link:hover h2,body.gya-accessibility-highcontrast a:link:hover h3,body.gya-accessibility-highcontrast a:link:hover h4,body.gya-accessibility-highcontrast a:link:hover h5,body.gya-accessibility-highcontrast a:link:hover h6,body.gya-accessibility-highcontrast a:link:hover i,body.gya-accessibility-highcontrast a:link:hover kbd,body.gya-accessibility-highcontrast a:link:hover rb,body.gya-accessibility-highcontrast a:link:hover rp,body.gya-accessibility-highcontrast a:link:hover rt,body.gya-accessibility-highcontrast a:link:hover ruby,body.gya-accessibility-highcontrast a:link:hover samp,body.gya-accessibility-highcontrast a:link:hover small,body.gya-accessibility-highcontrast a:link:hover span,body.gya-accessibility-highcontrast a:link:hover strong,body.gya-accessibility-highcontrast a:link:hover tt,body.gya-accessibility-highcontrast a:link:hover u,body.gya-accessibility-highcontrast a:link:hover var,body.gya-accessibility-highcontrast a:visited:hover,body.gya-accessibility-highcontrast a:visited:hover abbr,body.gya-accessibility-highcontrast a:visited:hover acronym,body.gya-accessibility-highcontrast a:visited:hover b,body.gya-accessibility-highcontrast a:visited:hover basefont,body.gya-accessibility-highcontrast a:visited:hover big,body.gya-accessibility-highcontrast a:visited:hover br,body.gya-accessibility-highcontrast a:visited:hover code,body.gya-accessibility-highcontrast a:visited:hover div,body.gya-accessibility-highcontrast a:visited:hover em,body.gya-accessibility-highcontrast a:visited:hover font,body.gya-accessibility-highcontrast a:visited:hover h1,body.gya-accessibility-highcontrast a:visited:hover h2,body.gya-accessibility-highcontrast a:visited:hover h3,body.gya-accessibility-highcontrast a:visited:hover h4,body.gya-accessibility-highcontrast a:visited:hover h5,body.gya-accessibility-highcontrast a:visited:hover h6,body.gya-accessibility-highcontrast a:visited:hover i,body.gya-accessibility-highcontrast a:visited:hover kbd,body.gya-accessibility-highcontrast a:visited:hover rb,body.gya-accessibility-highcontrast a:visited:hover rp,body.gya-accessibility-highcontrast a:visited:hover rt,body.gya-accessibility-highcontrast a:visited:hover ruby,body.gya-accessibility-highcontrast a:visited:hover samp,body.gya-accessibility-highcontrast a:visited:hover small,body.gya-accessibility-highcontrast a:visited:hover span,body.gya-accessibility-highcontrast a:visited:hover strong,body.gya-accessibility-highcontrast a:visited:hover tt,body.gya-accessibility-highcontrast a:visited:hover u,body.gya-accessibility-highcontrast a:visited:hover var {
+    background: #400000!important;
+    background-color: #400000!important
+}
+
+body.gya-accessibility-highcontrast body>input#site+div#wrapper span.mk,body.gya-accessibility-highcontrast body>input#site+div#wrapper span.mk b,body.gya-accessibility-highcontrast input[type=reset] {
+    background: #400060!important;
+    background-color: #400060!important
+}
+
+body.gya-accessibility-highcontrast div[role="button"],body.gya-accessibility-highcontrast input[type=button],body.gya-accessibility-highcontrast input[type=submit] {
+    background: #600040!important;
+    background-color: #600040!important
+}
+
+body.gya-accessibility-highcontrast input[type=search] {
+    -webkit-appearance: textfield!important
+}
+
+body.gya-accessibility-highcontrast html button[disabled],body.gya-accessibility-highcontrast html input[disabled],body.gya-accessibility-highcontrast html select[disabled],body.gya-accessibility-highcontrast html textarea[disabled] {
+    background: #404040!important;
+    background-color: #404040!important
+}
+
+body.gya-accessibility-highcontrast .menu li a span.label {
+    text-transform: none!important
+}
+
+body.gya-accessibility-highcontrast .menu li a span.label,body.gya-accessibility-highcontrast div.jwplayer span.jwcontrolbar,body.gya-accessibility-highcontrast div.jwplayer span.jwcontrols {
+    display: inline!important
+}
+
+body.gya-accessibility-highcontrast a:link.new,body.gya-accessibility-highcontrast a:link.new i,body.gya-accessibility-highcontrast a:link.new b,body.gya-accessibility-highcontrast span.Apple-style-span {
+    color: #FFFF40!important
+}
+
+body.gya-accessibility-highcontrast body.mediawiki img.tex {
+    background: white!important;
+    background-color: white!important;
+    border: #fff solid 3px!important
+}
+
+body.gya-accessibility-highcontrast text>tspan:first-letter,body.gya-accessibility-highcontrast text>tspan:first-line {
+    background: inherit!important;
+    background-color: inherit!important;
+    color: inherit!important
+}
+
+body.gya-accessibility-highcontrast div.sbtc div.sbsb_a li.sbsb_d div,body.gya-accessibility-highcontrast table.gssb_c tr.gssb_i a,body.gya-accessibility-highcontrast table.gssb_c tr.gssb_i b,body.gya-accessibility-highcontrast table.gssb_c tr.gssb_i span,body.gya-accessibility-highcontrast table.gssb_c tr.gssb_i td {
+    background: #003050!important;
+    background-color: #003050!important
+}
+
+body.gya-accessibility-highcontrast img[width="18"][height="18"] {
+    height: 18px!important;
+    width: 18px!important
+}
+
+body.gya-accessibility-highcontrast a>span.iconHelp:empty:after {
+    content: "Help"!important
+}
+
+body.gya-accessibility-highcontrast div#gmap,body.gya-accessibility-highcontrast div#gmap * {
+    background: initial!important
+}
+
+
+
+
+body.gya-accessibility-grayscale {
+    filter: grayscale(100%);
+    -webkit-filter: grayscale(100%);
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(100%);
+    -ms-filter: grayscale(100%);
+    -o-filter: grayscale(100%);
+    filter: gray;
+}
+
+
+
+
+body.gya-accessibility-underline a,body.gya-accessibility-underline a * {
+    text-decoration: underline!important
+}
+
+
+body.gya-accessibility-zoom,body.gya-accessibility-zoom p:not(.pojo-a11y-toolbar-title),body.gya-accessibility-zoom li:not(.pojo-a11y-toolbar-item),body.gya-accessibility-zoom label,body.gya-accessibility-zoom input,body.gya-accessibility-zoom select,body.gya-accessibility-zoom textarea,body.gya-accessibility-zoom legend,body.gya-accessibility-zoom code,body.gya-accessibility-zoom pre,body.gya-accessibility-zoom dd,body.gya-accessibility-zoom dt,body.gya-accessibility-zoom span,body.gya-accessibility-zoom blockquote {
+    font-size: 130%!important
+}
+
+body.gya-accessibility-zoom h1,body.gya-accessibility-zoom h2,body.gya-accessibility-zoom h3,body.gya-accessibility-zoom h4,body.gya-accessibility-zoom h5,body.gya-accessibility-zoom h6,body.gya-accessibility-zoom h1 span,body.gya-accessibility-zoom h2 span,body.gya-accessibility-zoom h3 span,body.gya-accessibility-zoom h4 span,body.gya-accessibility-zoom h5 span,body.gya-accessibility-zoom h6 span {
+    font-size: 172.9%!important
+}

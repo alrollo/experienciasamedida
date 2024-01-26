@@ -1,0 +1,29 @@
+/*!*****************************************************
+
+Freak Flags, Copyright ©2023 Michael P. Cohen. Freak flags is licenced under the MIT licence.  
+
+For complete information visit: www.freakflagsprite.com 
+
+******************************************************/
+
+.fflag {
+    background-image:url(flagSprite42.png);
+    background-repeat:no-repeat;
+    background-size: 100% 49494%;
+    display: inline-block;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+    box-sizing: content-box;
+}
+.fflag-US {background-position:center 0.2287%}
+.fflag-FR {background-position:center 0.4524%}
+.fflag-DE {background-position:center 0.6721%}
+.fflag-IT {background-position:center 0.8958%}
+.fflag-ES {background-position:left 1.1162%}
+.fflag-EN {background-position:center 1.3379%}
+
+.fflag.ff-sm {width: 18px;height: 11px}
+.fflag.ff-md {width: 27px;height: 17px}
+.fflag.ff-lg {width: 42px;height: 27px}
+.fflag.ff-xl {width: 60px;height: 37px}

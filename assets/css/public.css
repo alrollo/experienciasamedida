@@ -1,0 +1,15 @@
+/*region COOKIES */
+.gya_cookies { position: fixed; z-index: 999998; top: 0; bottom: 0; left: 0; right: 0; display: flex; align-items: center; justify-content: center; padding: 20px; background-color: rgba(0, 0, 0, 0.6); font-family: 'Karma', sans-serif; }
+.gya_modal { z-index: 999999; width: 400px; box-shadow: 0 0 22px 0 rgba(0, 0, 0, 0.54); border-radius: 4px; background-color: #fff; line-height: 1.6; }
+.gya_header { font-weight: bold; font-size: 20px; padding: 10px 25px; }
+.gya_body { border-top: 1px solid #ccc; padding: 10px 25px; color: #333; text-align: justify; font-size: 13px; }
+.gya_cookies_list { list-style: none; margin: 20px auto; }
+.gya_cookies_list li { border: 1px solid #ccc; border-bottom:0px; padding: 10px; }
+.gya_cookies_list li:last-child { border-bottom: 1px solid #ccc; }
+.gya_cookies_list li label { margin-bottom: 0px; }
+/*endregion COOKIES */
+
+/*region SEO */
+#seoContainer { padding-top: 15px; padding-bottom: 15px; }
+#seoContainer .row { margin-bottom: 15px; }
+/*endregion SEO */

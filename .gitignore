@@ -1,0 +1,11 @@
+/.idea
+/.vscode
+/storage
+.editorconfig
+.styleci.yml
+/core/node_modules
+/core/vendor/*
+/core/storage/*.key
+.env
+.env.backup
+.phpunit.result.cache

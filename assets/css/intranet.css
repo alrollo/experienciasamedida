@@ -1,0 +1,122 @@
+/* Common styles */
+.text-thin { font-weight: 400 !important; }
+
+.image-entity {
+    border: 1px solid #efefef;
+    padding: 5px;
+    overflow: hidden;
+}
+.image-entity .image-container {
+    max-height: 150px;
+    height: 150px;
+    overflow: hidden;
+}
+.image-entity .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.image-entity .buttons-container {
+    margin-top: 5px;
+}
+
+.imagesContainerMoving {
+    background: rgba(248, 248, 248, 0.97);
+    border: 2px solid #ccc;
+    height: 205px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.filesContainerMoving {
+    background: rgba(248, 248, 248, 0.97);
+    border: 2px solid #ccc;
+    height: 48px;
+}
+
+/* Overrides styles */
+.CodeMirror.cm-s-monokai { min-height: 800px !important; }
+.input-group > .select2-container--bootstrap4 {
+    width: auto;
+    flex: 1 1 auto;
+}
+
+.input-group > .select2-container--bootstrap4 .select2-selection--single {
+    height: 100%;
+    line-height: inherit;
+    padding: 0.5rem 1rem;
+}
+
+.navbar-nav > .user-menu > .dropdown-menu > .user-body {
+    border-bottom: 1px solid #dee2e6;
+}
+.navbar-nav > .user-menu > .dropdown-menu,
+.navbar-nav > .user-menu > .dropdown-menu > .user-body {
+    border-bottom-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+}
+
+.select2-container--default .select2-selection--multiple { border: 1px solid #ced4da; }
+.table .table-selector { width: 40px; padding-left: 10px; }
+.card-footer {
+    background-color: transparent;
+    border-top: 1px solid rgba(0,0,0,.125);
+}
+
+.profile-user-img {
+    height: 100px;
+    object-fit: cover;
+}
+
+.control-sidebar,
+.control-sidebar::before {
+    right: -350px;
+    width: 350px;
+}
+
+#calendarSidebar .table td,
+#calendarSidebar .table th,
+#calendarSidebar .table thead th {
+    border-color: #484848;
+}
+#calendarSidebar .bootstrap-datetimepicker-widget table td,
+#calendarSidebar .bootstrap-datetimepicker-widget table th {
+    border-radius: 0px;
+}
+#calendarSidebar .bootstrap-datetimepicker-widget table thead tr:first-child th:hover,
+#calendarSidebar .bootstrap-datetimepicker-widget table td span:hover,
+#calendarSidebar .bootstrap-datetimepicker-widget table td.day:hover,
+#calendarSidebar .bootstrap-datetimepicker-widget table td.hour:hover,
+#calendarSidebar .bootstrap-datetimepicker-widget table td.minute:hover,
+#calendarSidebar .bootstrap-datetimepicker-widget table td.second:hover{
+    background: #50565c;
+}
+
+.tab-pane-bordered {
+    padding: 1.25rem;
+    border: 1px solid #dee2e6;
+    border-top: 0px;
+}
+
+/* Pages */
+/* LOGIN */
+.page-login {
+    -ms-flex-align: center;
+    align-items: center;
+    background-color: #e9ecef;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    height: 100vh;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+/* PAGES */
+.modulesWrapper {
+    padding: 15px;
+    border: 1px solid #efefef;
+    background: #fbfbfb;
+}
