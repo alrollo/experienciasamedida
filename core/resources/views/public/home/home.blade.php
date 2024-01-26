@@ -70,50 +70,20 @@
                         <div class="spacer-single"></div>
                     </div>
                 </div>
-                <div class="col-md-3 mb-sm-30">
-                    <div class="de-image-text s2 wow flipInY">
-                        <a href="#" class="d-text">
-                            <div class="arrow_wrap">
-                                <div class="arrow__up"></div>
-                            </div>
-                            <h3>Individual</h3>
-                        </a>
-                        <img src="{{ asset('assets/template/images-dj/misc/featured-1.jpg') }}" class="img-fluid" alt="">
+                @foreach($familias as $familia)
+                    <div class="col-md-3 mb-sm-30">
+                        <div class="de-image-text s2 wow flipInY">
+                            <a href="{{ url(Tr::Get('links.experiencias.href').'/'.$familia->title_slug) }}" aria-label="{{ Tr::Get('common.aria') }} {{ $familia->title }}" title="{{ Tr::Get('common.title') }} {{ $familia->title }}" class="d-text">
+                                <div class="arrow_wrap">
+                                    <div class="arrow__up"></div>
+                                </div>
+                                <h3>{{ $familia->title }}</h3>
+                            </a>
+                            @image(["image" => $familia->images->where('tag', 'portada')->first(), "model" => "servicefamily", "class" => "img-fluid"])
+                        </div>
                     </div>
-                </div>
-                <div class="col-md-3 mb-sm-30">
-                    <div class="de-image-text s2 wow flipInY">
-                        <a href="#" class="d-text">
-                            <div class="arrow_wrap">
-                                <div class="arrow__up"></div>
-                            </div>
-                            <h3>En pareja</h3>
-                        </a>
-                        <img src="{{ asset('assets/template/images-dj/misc/featured-2.jpg') }}" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3 mb-sm-30">
-                    <div class="de-image-text s2 wow flipInY">
-                        <a href="#" class="d-text">
-                            <div class="arrow_wrap">
-                                <div class="arrow__up"></div>
-                            </div>
-                            <h3>En familia</h3>
-                        </a>
-                        <img src="{{ asset('assets/template/images-dj/misc/featured-3.jpg') }}" class="img-fluid" alt="">
-                    </div>
-                </div>
-                <div class="col-md-3 mb-sm-30">
-                    <div class="de-image-text s2 wow flipInY">
-                        <a href="#" class="d-text">
-                            <div class="arrow_wrap">
-                                <div class="arrow__up"></div>
-                            </div>
-                            <h3>En grupo</h3>
-                        </a>
-                        <img src="{{ asset('assets/template/images-dj/misc/featured-4.jpg') }}" class="img-fluid" alt="">
-                    </div>
-                </div>
+                @endforeach
+
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <br><br>
@@ -252,9 +222,14 @@
             <div class="row">
                 <div class="col-md-10 offset-md-1 black">
                     <div class="row">
-                        <div class="col-md-4 text-center"><a href=""><img src="{{ asset('assets/template/images-dj/gallery/1.jpg') }}" class="img-fluid mb-3"></a><br><h3><span class="dorado">Titulo</span></h3><strong>"</strong> <em>Resumen...</em> <strong>"</strong></div>
-                        <div class="col-md-4 text-center"><a href=""><img src="{{ asset('assets/template/images-dj/gallery/1.jpg') }}" class="img-fluid mb-3"></a><br><h3><span class="dorado">Titulo</span></h3><strong>"</strong> <em>Resumen...</em> <strong>"</strong></div>
-                        <div class="col-md-4 text-center"><a href=""><img src="{{ asset('assets/template/images-dj/gallery/1.jpg') }}" class="img-fluid mb-3"></a><br><h3><span class="dorado">Titulo</span></h3><strong>"</strong> <em>Resumen...</em> <strong>"</strong></div>
+                        @foreach($experiencias as $experiencia)
+                        <div class="col-md-4 text-center">
+                            <a href="{{ url(Tr::Get('links.experiencias.detalle.href').$experiencia->title_slug) }}" aria-label="{{ Tr::Get('common.aria') }} {{ $experiencia->title }}" title="{{ Tr::Get('common.title') }} {{ $experiencia->title }}">
+                                @image(["image" => $experiencia->images->where('tag', 'portada')->first(), "model" => "service", "class" => "img-fluid mb-3"])
+                            </a><br>
+                            <h3><span class="dorado">{{ $experiencia->title }}</span></h3><strong>"</strong><em>{{ $experiencia->summary }}</em> <strong>"</strong></div>
+                        @endforeach
+
                     </div>
                 </div>
             </div>
