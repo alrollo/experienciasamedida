@@ -25,7 +25,7 @@
             <div class="row">
                 <div id="sidebar" class="col-md-3">
                     @foreach ($familias as $familiaListado)
-                        <h4><span class="@if($familiaListado->id == $familia->id) dorado @endif">{{ $familiaListado->title }}</span></h4>
+                        <h4><a href="{{ url(Tr::Get('links.experiencias.href').'/'.$familiaListado->title_slug) }}" class="@if($familiaListado->id == $familia->id) dorado @endif">{{ $familiaListado->title }}</a></h4>
                         <hr>
                     @endforeach
                 </div>
